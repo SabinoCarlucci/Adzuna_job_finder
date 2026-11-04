@@ -22,7 +22,7 @@ Cercare lavoro all'estero a mano è lento: decine di siti, annunci ripetuti, req
 - **raccolgono** annunci da una fonte ufficiale (l'API gratuita di Adzuna) per i paesi e i ruoli che scegli;
 - **puliscono e filtrano** (doppioni, stage, lingua dell'annuncio, agenzie, stipendio minimo);
 - **ti preparano una lista corta** di annunci da leggere davvero, ordinata per quanto assomigliano a quello che cerchi;
-- **raccolgono le tue annotazioni** (laurea richiesta, lingue, anni di esperienza, decisione) e le riassumono in un report, così dopo 10–15 annunci letti hai una risposta basata su fatti: *quanti di questi annunci posso davvero ottenere con il mio profilo?*
+- **raccolgono le tue annotazioni** (laurea richiesta, lingue, anni di esperienza, decisione) e le riassumono in un report, così dopo 10–15 annunci letti hai una risposta basata su fatti: *a quanti di questi annunci posso davvero candidarmi con il mio profilo?*
 
 Non è un sistema per candidarsi in automatico e non sostituisce la lettura degli annunci. Serve a decidere **quali** leggere.
 
@@ -30,7 +30,6 @@ Non è un sistema per candidarsi in automatico e non sostituisce la lettura degl
 
 | File | Cosa fa, in soldoni |
 |---|---|
-| `lezione_a_scraping_pratica.py` | Esercizio facoltativo di riscaldamento: scarica citazioni da un sito fatto apposta per esercitarsi (quotes.toscrape.com) e le salva in `citazioni.csv`. Non serve per la ricerca di lavoro, ma insegna cos'è una richiesta web e come si legge una pagina. |
 | `lezione_b_annunci_adzuna.py` | **Raccolta.** Interroga l'API di Adzuna per un paese e una frase (es. `nl` + "supply chain analyst") e salva gli annunci recenti in un CSV nella cartella `dati/`. |
 | `lezione_c_analisi.py` | **Analisi.** Legge tutti i CSV di `dati/`, toglie i doppioni, esclude stage e internship, deduce livello e lingua, applica i tuoi filtri, scrive un report in `report/` e prepara `annotazioni.csv`. |
 | `requirements.txt` | Elenco delle librerie Python da installare. |
