@@ -1,0 +1,13 @@
+# Ambiente virtuale e cache di Python
+venv/
+__pycache__/
+*.pyc
+
+# Chiavi segrete: MAI su GitHub
+.env
+
+# Dati raccolti e risultati personali: restano sul tuo computer
+dati/
+report/
+annotazioni.csv
+citazioni.csv
